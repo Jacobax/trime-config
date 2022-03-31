@@ -1,0 +1,1 @@
+# rime4android-config
