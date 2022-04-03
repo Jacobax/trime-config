@@ -5,6 +5,7 @@
 主题来自[rime-pure](https://github.com/SivanLaai/rime-pure)
 ![ios](https://raw.githubusercontent.com/Jacobax/rime4android-config/main/iOS%E7%9A%AE%E8%82%A4.jpg)
 
+相较原`同文风增强版主题`按键修改如下(含相应全/半角及相似符号):
 * W键下滑输入~
 * I键下滑输入&
 * O键下滑输入°
@@ -18,5 +19,5 @@
 * X键下滑输入各种星号*
 * B键下滑输入分号及反斜杆\
 * ，键下滑输入各种右项《〈
-* 。键下滑输入各种左向》〉
+* 。键下滑输入各种左向》〉  
 另：长按空格键输入上次输入内容，需要额外设置
