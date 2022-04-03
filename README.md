@@ -1,8 +1,8 @@
-安卓rime配置备份
-朙月拼音+小鹤双拼
-同文风增强版主题
+安卓rime配置备份  
+朙月拼音+小鹤双拼  
+同文风增强版主题  
 按键音效  
-主题来自[rime-pure](https://github.com/SivanLaai/rime-pure)
+主题来自[rime-pure](https://github.com/SivanLaai/rime-pure), 源处有更丰富的输入方案和各种功能  
 ![ios](https://raw.githubusercontent.com/Jacobax/rime4android-config/main/iOS%E7%9A%AE%E8%82%A4.jpg)
 
 相较原`同文风增强版主题`按键修改如下(均含相应全/半角及相似符号):
