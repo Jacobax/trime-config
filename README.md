@@ -5,13 +5,14 @@
 主题来自[rime-pure](https://github.com/SivanLaai/rime-pure)
 ![ios](https://raw.githubusercontent.com/Jacobax/rime4android-config/main/iOS%E7%9A%AE%E8%82%A4.jpg)
 
-相较原`同文风增强版主题`按键修改如下(含相应全/半角及相似符号):
+相较原`同文风增强版主题`按键修改如下(均含相应全/半角及相似符号):
 * W键下滑输入~
 * I键下滑输入&
 * O键下滑输入°
 * P键下滑输入%、°、℃
 * A键下滑输入≠，左滑输入≥，右滑输入≤
 * S键下滑输入￥、$、€等
+* D键下滑输入`
 * H键下滑输入#
 * J键下滑输入——（中）、_（英）
 * L键下滑输入|、·、§、¦
