@@ -2,7 +2,8 @@
 朙月拼音+小鹤双拼  
 同文风增强版主题  
 按键音效  
-主题来自[rime-pure](https://github.com/SivanLaai/rime-pure), 源处有更丰富的输入方案和各种功能,star请到源处   
+**简拼可能会造成输入卡顿，可自行开关**  
+主题来自[rime-pure](https://github.com/SivanLaai/rime-pure), 源处有更丰富的输入方案和各种功能，star请到源处   
 ![ios](https://raw.githubusercontent.com/Jacobax/rime4android-config/main/iOS%E7%9A%AE%E8%82%A4.jpg)
 
 ---
@@ -28,7 +29,7 @@
 * 当有候选项时`,`、`。`键分别为`上`、`下`页翻页按钮  
 * 长按空格键输入上次输入内容    
 * `Enter`键上滑打开默认浏览器google搜索光标前内容  
-  
+---
 添加符号输出，如小鹤双拼输入`xnku`、全拼输入`xiaoku`即可输入`😂🤣`等    
 修改目的是实现一些自觉好用的小功能及原主题不能快捷输入的部分常见符号的快捷输入，修改原则是根据按键上字符的形和音及原主题已有符号和功能，如`H#`、`P%`、`删除键左滑上滑分别删除当前行和删除全部`    
 **若有好用的功能和调整也欢迎提出（不一定实现）**
