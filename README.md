@@ -1,4 +1,4 @@
-安卓rime配置备份  
+安卓[Rime](https://github.com/osfans/trime)配置备份  
 朙月拼音+小鹤双拼  
 同文风增强版主题  
 按键音效  
