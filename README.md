@@ -4,6 +4,7 @@
 按键音效  
 **简拼可能会造成输入卡顿，可自行开关**  
 主题及小鹤音形方案来自[rime-pure](https://github.com/SivanLaai/rime-pure), 源处有更丰富的输入方案和各种功能，star请到源处   
+最新改动请下载`同文风增强版.trime.yaml`覆盖使用
 ![ios](https://raw.githubusercontent.com/Jacobax/rime4android-config/main/iOS%E7%9A%AE%E8%82%A4.jpg)  
 ![Gboard](https://github.com/Jacobax/trime-config/blob/main/配色Gboard墨.jpg)
 
