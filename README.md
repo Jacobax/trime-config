@@ -1,10 +1,11 @@
 安卓[Rime](https://github.com/osfans/trime)配置备份  
-朙月拼音+小鹤双拼+小鹤音形  
+朙月拼音/clover拼音+小鹤双拼+小鹤音形  
 同文风增强版主题  
 按键音效  
+`安卓rime-新.7z`用`clover拼音方案`取代`明月拼音方案`、`THUOCL词库`取代`luna_pinyin词库`，原因是偶然发现明月词库含有极端的仇中词条  
 **简拼可能会造成输入卡顿，可自行开关**  
 主题及小鹤音形方案来自[rime-pure](https://github.com/SivanLaai/rime-pure), 源处有更丰富的输入方案和各种功能，star请到源处   
-最新改动请下载`同文风增强版.trime.yaml`覆盖使用
+最新改动请下载`同文风增强版.trime.yaml`覆盖使用  
 ![ios](https://raw.githubusercontent.com/Jacobax/rime4android-config/main/iOS%E7%9A%AE%E8%82%A4.jpg)  
 ![Gboard](https://github.com/Jacobax/trime-config/blob/main/配色Gboard墨.jpg)
 
