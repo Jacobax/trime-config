@@ -14,10 +14,6 @@
 #
 # no comment
 
-肖家培	xjp
-余芊芊	yqq
-刘金定	ljd
-win11	win
 中州韻輸入法引擎	rime	2
 又双叒叕	yyy
 http://rime.im/	rime	1
@@ -74,10 +70,6 @@ Wi-Fi	wifi
 Apple ID	appleid
 QQ邮箱	qqyzxl
 B站	bvj
-2823442326@qq.com	yx
-1406407138@qq.com	yx
-jacobxjp@gmail.com	yx
-pa738282@gmail.com	yx
 F-Droid	fd
 Gboard	gb
 https://	http
