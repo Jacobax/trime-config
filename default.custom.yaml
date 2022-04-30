@@ -1,0 +1,11 @@
+customization:
+  distribution_code_name: ""
+  distribution_version: ""
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Apr 25 15:38:14 2022"
+  rime_version: 1.7.3
+patch:
+  schema_list:
+    - {schema: clover}
+    - {schema: double_pinyin_flypy}
+    - {schema: flypy}

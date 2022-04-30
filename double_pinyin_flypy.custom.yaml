@@ -1,0 +1,34 @@
+patch:
+  __include: easy_en:/patch
+  easy_en/enable_sentence: false
+  #载入clover扩充词库
+  "translator/dictionary": clover
+  'translator/preedit_format': {}
+  
+  engine/filters/@next 0:
+    simplifier@symbol_support
+
+  # 支持符号
+  symbol_support:
+    opencc_config: symbol.json
+    option_name: symbol_support
+    tips: all
+  #标点及特殊表情
+  'punctuator/import_preset': symbols
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"
+  
+  #输入上次输入内容
+  history:
+    input: 'RIME'
+    size: 3
+    initial_quality: 10000
+
+  ### 双拼使用自定义词典 custom_phrase.txt
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "engine/translators/@5": table_translator@custom_phrase

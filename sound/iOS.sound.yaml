@@ -1,0 +1,12 @@
+sound: 
+  - KeypressDelete.ogg      #sound 0
+  - KeypressReturn.ogg      #sound 1
+  - KeypressSpacebar.ogg      #sound 2
+  - KeypressStandard.ogg      #sound 3
+
+folder: iOS
+keyset: 
+  - {keys: [KEYCODE_DEL, KEYCODE_FORWARD_DEL], inOrder: false, sounds: [0] }
+  - {keys: [NUMPAD_ENTER, ENTER], inOrder: false, sounds: [1] }
+  - {min: KEYCODE_SPACE , max: KEYCODE_SPACE , inOrder: false, sounds: [2] }
+  - {min: KEYCODE_UNKNOWN, max: KEYCODE_PROFILE_SWITCH, inOrder: false, sounds: [3] }  #兜底全部按键

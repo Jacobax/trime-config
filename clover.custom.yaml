@@ -1,0 +1,9 @@
+patch:
+  __include: easy_en:/patch
+  easy_en/enable_sentence: false
+  
+  #输入上次输入内容
+  history:
+    input: 'RIME'
+    size: 3
+    initial_quality: 10000

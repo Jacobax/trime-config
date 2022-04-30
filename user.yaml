@@ -1,0 +1,13 @@
+var:
+  last_build_time: 1651242040
+  option:
+    ascii_punct: false
+    full_shape: false
+    simplification: false
+  previously_selected_schema: flypy
+  schema_access_time:
+    clover: 1651218177
+    clover_jiugong: 1650852306
+    double_pinyin_flypy: 1651226659
+    flypy: 1651231960
+    luna_pinyin: 1650261754

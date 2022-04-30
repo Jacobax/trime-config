@@ -1,0 +1,128 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: flypy
+  name: "小鹤音形" 
+  version: "1.0"
+  author:
+    - flypy
+    - SivanLaai
+  description: |
+    小鹤双拼，方案文件由 SivanLaai 修改，字典文件来源是小鹤官网 - 2021年02月07日 17:55
+  dependencies:
+    - flypydz
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中, 英 ]
+  - name: full_shape
+    states: [ 半, 全 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+    - lua_translator@date_translator # 自定义系统变量输出
+    - table_translator@custom_phraseVD
+    - table_translator@custom_phraseXT
+    - table_translator@custom_phraseBQ
+    - table_translator@custom_phraseYH
+  filters:
+    # - lua_filter@single_char_first_filter # 单字优先方法
+
+speller:
+  max_code_length: 4                    # 四码上屏
+  auto_select: true                     # 自动上屏
+
+translator:
+  dictionary: flypy                     # 翻译器将调取此字典文件
+  enable_charset_filter: true           # 开启字符集过滤
+  enable_completion: true               # 是否显示编码未输入完整的词条
+  enable_sentence: false                # 句子输入模式
+  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: false
+  user_dict: flypy_user
+  db_class: stabledb
+  preedit_format:                       # 上屏码自定义
+#    - xform/.+//
+  comment_format:                       # 提示码自定义
+#    - xform/.+//                        # 配置：消除所有候选词后的提示码
+
+
+custom_phraseVD:
+  dictionary: ""
+  user_dict: flypy_top
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 0 #用户词和系统词重码 置顶
+  comment_format:                       # 提示码自定义
+#    - xform/.+//                        # 配置：消除所有候选词后的提示码
+
+custom_phraseYH:
+  dictionary: ""
+  user_dict: flypy_user
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #和系统词重码时居后
+  comment_format:                       # 提示码自定义
+#    - xform/.+//                        # 配置：消除所有候选词后的提示码
+  
+custom_phraseXT:
+  dictionary: ""
+  user_dict: flypy_sys
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+  comment_format:                       # 提示码自定义
+#    - xform/.+//                        # 配置：消除所有候选词后的提示码
+
+custom_phraseBQ:
+  dictionary: ""
+  user_dict: flypy_plus简补
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #和系统词重码时居后
+  comment_format:                       # 提示码自定义
+#    - xform/.+//                        # 配置：消除所有候选词后的提示码
+
+reverse_lookup:
+  dictionary: flypydz
+  comment_format:
+   # - xform/^/〔/
+   # - xform/$/〕/
+    - xform/ / /
+    
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "[a-z`]*`+[a-z`]*"
