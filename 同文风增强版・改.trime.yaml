@@ -86,6 +86,13 @@ colors:
 #界面风格、功能开关
 style:
   auto_caps: false #自動句首大寫:true|false|ascii
+  keyboard_height: 255 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
+  keyboard_height_land: 200 #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
+#  keyboard_padding: #竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
+#  keyboard_padding_left: #竖屏屏模式下，左手键盘布局，屏幕左侧与键盘的距离
+#  keyboard_padding_right: #竖屏屏模式下，左手键盘布局，屏幕右侧与键盘的距离
+#  keyboard_padding_bottom: #竖屏模式下，屏幕下边缘与键盘的距离（避免误触发全面屏
+#  keyboard_padding_land_bottom: #横屏模式下，屏幕下边缘与键盘的距离
   background_dim_amount: 0.5
   root_background: keyboard_back_color # 整个键盘区+候选栏的背景图/色
   liquid_keyboard_switch: { toggle: _liquid_keyboard, send: Mode_switch, states: [ 更多, 更多 ] }
@@ -4818,6 +4825,8 @@ liquid_keyboard:
   # 目前只能直接写参数，不支持变量或者fallback机制。
   # 缺少参数时，自动从style中加载参数。除非需要指定liquid_keyboard使用与主键盘不同的背景色、背景图，否则不应设置被注释掉的参数。
   author: "tumuyan"
+  row: 6              #每屏最多显示多少行按键
+  row_land: 5         #横屏每屏最多显示多少行按键
   key_height: 40      #按键高度
   key_height_land: 40 #横屏模式按键高度
   single_width: 60    #single类型的按键宽度
