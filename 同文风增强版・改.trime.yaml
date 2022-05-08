@@ -955,7 +955,6 @@ preset_color_schemes:
     name: gboard墨
     author: GABOU
     text_color: 0xff5F97F6
-    candidate_text_color: 0xffFFFFFF
     candidate_separator_color: *COLOR_TRANSPARENT
     back_color: 0xff292E32
     border_color: 0xff292E32
@@ -967,10 +966,9 @@ preset_color_schemes:
     candidate_back_color: 0xff292E32
     key_back_color: 0xff484C4F
     key_text_color: 0xffFFFFFF
-    benter: 0xff5F97F6 #回车键背景色
-    hcb: 0xff5F97F6 #0xff1181fc
-    preview_back_color: 0xff5F97F6 #按键气泡背景
-    preview_text_color: *COLOR_WHITE #按键气泡文本
+    hcb: 0xff5F97F6 
+    preview_back_color: 0xff5F97F6 
+    preview_text_color: *COLOR_WHITE 
   ios:
     AAA: IOSkey.png
     AAH: IOSkeyh.png
