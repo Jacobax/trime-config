@@ -44,7 +44,14 @@ switches:
   - name: show_es
     reset: 1
     states: [ 😔, 😀 ]
-
+  - options: [ _liquid_keyboard ]
+    states: [ 😂 ]
+  - options: [ _key_liquid_keyboard_clipboard ]
+    states: [📝]
+#  - options: [ _key_VoidSymbol ]
+#    states: [ "　" ]	#空格调整▼的位置
+  - options: [ _key_Hide ]
+    states: [▼]
 
 engine:
   processors:
