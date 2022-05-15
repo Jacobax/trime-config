@@ -4899,7 +4899,7 @@ liquid_keyboard:
   symbol:
     name: 特殊
     type: SINGLE
-    keys: "△▽○◇□☆▲▼●◆■★▷◁▶◀♻♲†⚝✡⚹✦✸✹￼�×⌫☑☒✅❎✔✘✓✗☼☽♀☻◐㏂☀☾♂☹◑㏘☜☝☞☚☟☛▪•‥…∷※♩♪♫♬§°♭♯♮‖¶№◎¤۞℗®©卍卐℡™㏇Φ↖↑↗◤㊤◥←↔→㊧㊥㊨↙↓↘◣㊦◢⇄⇅⇆⇤↩⇥❏❐◲〼▢▣⇦⇧⇨⇩⇪↶▸◂▴▾✁↷✍⏍ϟ📝✎✆☱☰☴⚿⛮⚙☲☯☵⛶☩☐☳☷☶💬🗨⟲ღ✈☂🎤🌐🔍"
+    keys: "ㄓ△▽○◇□☆▲▼●◆■★▷◁▶◀♻♲†⚝✡⚹✦✸✹￼�×⌫☑☒✅❎✔✘✓✗☼☽♀☻◐㏂☀☾♂☹◑㏘☜☝☞☚☟☛▪•‥…∷※♩♪♫♬§°♭♯♮‖¶№◎¤۞℗®©卍卐℡™㏇Φ↖↑↗◤㊤◥←↔→㊧㊥㊨↙↓↘◣㊦◢⇄⇅⇆⇤↩⇥❏❐◲〼▢▣⇦⇧⇨⇩⇪↶▸◂▴▾✁↷✍⏍ϟ📝✎✆☱☰☴⚿⛮⚙☲☯☵⛶☩☐☳☷☶💬🗨⟲ღ✈☂🎤🌐🔍屮¿"
   unit:
     name: 单位
     type: SINGLE
@@ -5082,7 +5082,7 @@ preset_keys:
   BackSpace_Cool: {label: ⇦, preview: '⇦', repeatable: true, send: BackSpace}
   BackSpace_Ch: {label: 退格, preview: '⌫', repeatable: true, send: BackSpace}
   space: {repeatable: false, preview: ' ', functional: false, label: ' ', send: space}
-  space1: {repeatable: true, preview: '␣', label: "_______", functional: true, send: space}
+  space1: {repeatable: false, preview: '␣', label: "_______", functional: true, send: space}
   space2: {repeatable: true, preview: '␣', label: " ", functional: false, send: space}
   space3: {repeatable: true, preview: '␣', label: "␣", functional: false, send: space}
   space_Ch: {repeatable: true, preview: '␣', label: "空格", functional: true, send: space}
