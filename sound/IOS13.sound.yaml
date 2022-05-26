@@ -1,0 +1,13 @@
+sound: 
+  - enter.mp3         #0
+  - del.mp3         #1
+  - space.mp3         #2
+  - click.mp3         #3
+  
+folder: IOS13
+
+keyset: 
+  - {keys: [NUMPAD_ENTER, ENTER], inOrder: false, sounds: [0] }
+  - {keys: [KEYCODE_DEL, DEL, KEYCODE_SHIFT, KEYCODE_SHIFT_LEFT], inOrder: false, sounds: [1] }
+  - {keys: [KEYCODE_SPACE, SPACE], inOrder: false, sounds: [2] }
+  - {min: KEYCODE_UNKNOWN, max: KEYCODE_PROFILE_SWITCH, inOrder: false, sounds: [3] }  #兜底全部按键
