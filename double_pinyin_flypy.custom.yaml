@@ -1,6 +1,4 @@
 patch:
-  __include: easy_en:/patch
-  easy_en/enable_sentence: false
   #载入clover扩充词库
   "translator/dictionary": clover
   'translator/preedit_format': {}

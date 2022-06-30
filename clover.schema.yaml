@@ -76,6 +76,7 @@ engine:
     - script_translator
     - lua_translator@date_translator # 自定义系统变量输出
     - history_translator  #输入上次内容
+    - table_translator@easy_en
   filters:
     - simplifier@emoji_suggestion
     - simplifier@symbol_support
@@ -100,6 +101,13 @@ symbol_support:
   opencc_config: symbol.json
   option_name: symbol_support
   tips: all
+
+easy_en:
+  dictionary: "easy_en"
+  db_class: tabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 0
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -166,7 +174,3 @@ recognizer:
   patterns:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     reverse_lookup: "`[a-z]*'?$"
-
-#英文输入
-__include: easy_en:/patch
-easy_en/enable_sentence: false

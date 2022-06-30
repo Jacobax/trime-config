@@ -58,6 +58,7 @@ engine:
     - script_translator
     - history_translator  #输入上次内容
     - lua_translator@date_translator # 自定义系统变量输出
+    - table_translator@easy_en
   filters:
     - simplifier
     - uniquifier
@@ -66,6 +67,13 @@ engine:
 es_conversion:
   opencc_config: es.json
   option_name: show_es
+
+easy_en:
+  dictionary: "easy_en"
+  db_class: tabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 0
 
 simplifier:
   option_name: zh_simp_s2t
@@ -167,6 +175,3 @@ recognizer:
   patterns:
     reverse_lookup: "`[a-z]*'?$"
     
-#英文输入
-__include: easy_en:/patch
-easy_en/enable_sentence: false
