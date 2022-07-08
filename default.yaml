@@ -33,6 +33,7 @@ switcher:
 
 menu:
   page_size: 9
+  alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  #自定义候选序号显示符
 
 punctuator:
   full_shape:
