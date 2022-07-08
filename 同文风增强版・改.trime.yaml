@@ -86,7 +86,7 @@ colors:
 #界面风格、功能开关
 style:
   auto_caps: false #自動句首大寫:true|false|ascii
-  keyboard_height: 250 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
+  keyboard_height: 240 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
   keyboard_height_land: 200 #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
 #  keyboard_padding: #竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
 #  keyboard_padding_left: #竖屏屏模式下，左手键盘布局，屏幕左侧与键盘的距离
