@@ -322,9 +322,9 @@ preset_keyboards:
       - {click: BackSpace, swipe_left: ClearH_Ch, swipe_up: Clear, swipe_down: Escape, key_text_offset_y: 0, width: 14, key_text_size: 21}
       # 第四行
       - {height: *VJM, click: K_number, label: '?123', composing: delimiterF, key_symbol_offset_x: 0, long_click: liquid_keyboard_switch, swipe_up: Theme_settings1, swipe_down: Color_switch, width: 16, key_text_size: 16}
-      - {click: ",", label: " ，", key_symbol_offset_x: 0, composing: delimiterD, long_click: "!", swipe_up: "!", swipe_down: "<", width: 14, key_text_size: 16} #paging: Page_Up, 
+      - {click: ",", label: " ，", key_symbol_offset_x: 0, composing: delimiterD, long_click: "!", swipe_up: "!", swipe_down: ",", swipe_right: "<", width: 14, key_text_size: 16} #paging: Page_Up, 
       - {click: space1, key_text_size: 18, key_text_offset_x: 0, key_text_offset_y: 0, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: RIME, swipe_left: Left, swipe_right: Right, swipe_up: Page_Up, swipe_down: Page_Down, width: 40}
-      - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", swipe_down: ">", composing: delimiterS, width: 14, key_text_size: 16} #has_menu: Page_Down, 
+      - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", swipe_down: ".", swipe_left: ">" composing: delimiterS, width: 14, key_text_size: 16} #has_menu: Page_Down, 
       - {click: Return, swipe_up: Menu, swipe_down: Hint_switch, key_symbol_offset_x: 0, key_back_color: hcb, width: 16, key_text_size: 16}
 
 
