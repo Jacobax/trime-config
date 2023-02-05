@@ -31,8 +31,8 @@ keyboard_height:
   L: &CQ_symbol 0             #助记键盘符号（长按、上排文字）偏移
   M: &CQ_hintY -3            #助记符号（下排文字、下档文字）纵向位置调节
   N: &CQ_text_size 20
-  H: &VJG_Other 53
-  I: &NUM_SYM_W 15.5   # 数字  符号键盘  宽度
+  O: &VJG_Other 53
+  P: &NUM_SYM_W 15.5   # 数字  符号键盘  宽度
 #-------调节尽量以配色中键高最低的配色为标准------
 other:
 #主键盘结构（四行）
@@ -73,13 +73,13 @@ colors:
   19: &COLOR_DARK_SEA_BLUE 0xff007dc7  #暗海蓝
   20: &COLOR_BLACK_1 0xff888888 #黑1
   21: &COLOR_GRAY_1 0xffaaaaaa #灰1
-  21: &COLOR_LIGHT_BLUE 0xFF56A2FA #浅蓝
-  22: &COLOR_IFLY_BLUE 0xFF3d9dff #讯飞蓝
-  23: &COLOR_LIGHT_IFLY_GRAY_P 0xFFb6b7b9 #讯飞功能按键激活灰
-  24: &COLOR_NOSIGNAL_GRAY 0xffa3a7aa #按键无法选择灰
-  25: &COLOR_DARK_GRAY 0xff6f7b83 #深灰
-  26: &COLOR_DARK_SEA_BLUE_P 0xff025281 #深暗海蓝
-  27: &COLOR_XPERIA_CANDIDATE_GREEN 0xff00a886 #SONY绿
+  22: &COLOR_LIGHT_BLUE 0xFF56A2FA #浅蓝
+  23: &COLOR_IFLY_BLUE 0xFF3d9dff #讯飞蓝
+  24: &COLOR_LIGHT_IFLY_GRAY_P 0xFFb6b7b9 #讯飞功能按键激活灰
+  25: &COLOR_NOSIGNAL_GRAY 0xffa3a7aa #按键无法选择灰
+  26: &COLOR_DARK_GRAY 0xff6f7b83 #深灰
+  27: &COLOR_DARK_SEA_BLUE_P 0xff025281 #深暗海蓝
+  28: &COLOR_XPERIA_CANDIDATE_GREEN 0xff00a886 #SONY绿
 
 
 #界面风格、功能开关
@@ -324,7 +324,7 @@ preset_keyboards:
       - {height: *VJM, click: K_number, label: '?123', composing: delimiterF, key_symbol_offset_x: 0, long_click: liquid_keyboard_switch, swipe_up: Theme_settings1, swipe_down: Color_switch, width: 16, key_text_size: 16}
       - {click: ",", label: " ，", key_symbol_offset_x: 0, composing: delimiterD, long_click: "!", swipe_up: "!", swipe_down: ",", swipe_right: "<", width: 14, key_text_size: 16} #paging: Page_Up, 
       - {click: space1, key_text_size: 18, key_text_offset_x: 0, key_text_offset_y: 0, key_symbol_offset_x: 0, key_symbol_offset_y: 6, long_click: RIME, swipe_left: Left, swipe_right: Right, swipe_up: Page_Up, swipe_down: Page_Down, width: 40}
-      - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", swipe_down: ".", swipe_left: ">" composing: delimiterS, width: 14, key_text_size: 16} #has_menu: Page_Down, 
+      - {click: ".", label: " 。", key_symbol_offset_x: 0, long_click: "?", swipe_up: "?", swipe_down: ".", swipe_left: ">", composing: delimiterS, width: 14, key_text_size: 16} #has_menu: Page_Down, 
       - {click: Return, swipe_up: Menu, swipe_down: Hint_switch, key_symbol_offset_x: 0, key_back_color: hcb, width: 16, key_text_size: 16}
 
 
@@ -379,7 +379,6 @@ preset_keyboards:
     ascii_mode: 0
     author: flypy.com
     name: "功能"
-    key_symbol_offset_y: *DsymY
     height: *VJG_Other
     horizontal_gap: *NJL
     vertical_gap: *NJH
@@ -437,7 +436,7 @@ android_keys:
     MEDIA_PLAY, MEDIA_PAUSE, MEDIA_CLOSE, MEDIA_EJECT, MEDIA_RECORD,
     F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12,
     Num_Lock, KP_0, KP_1, KP_2, KP_3, KP_4, KP_5, KP_6, KP_7, KP_8, KP_9,
-  KP_Divide, KP_Multiply, KP_Subtract, KP_Add, KP_Decimal, KP_Separator, KP_Enter, KP_Equal,
+    KP_Divide, KP_Multiply, KP_Subtract, KP_Add, KP_Decimal, KP_Separator, KP_Enter, KP_Equal,
     parenleft, parenright,
     VOLUME_MUTE, INFO, CHANNEL_UP, CHANNEL_DOWN, ZOOM_IN, ZOOM_OUT,
     TV, WINDOW, GUIDE, DVR, BOOKMARK, CAPTIONS, SETTINGS,
@@ -779,7 +778,7 @@ preset_keys:
   Menu2: {label: "选单", functional: false, send: Menu}
   Settings: {label: ⚙, functional: false, send: SETTINGS}
   Color_settings: {label: ◲, send: SETTINGS, option: "color"}
-  Color_settings: {label: 配色, send: SETTINGS, option: "color"}
+  Color_settings1: {label: 配色, send: SETTINGS, option: "color"}
   Theme_settings: {label: "✡", send: SETTINGS, option: "theme"}
   Theme_settings1: {label: ❖, send: SETTINGS, option: "theme"}
   Theme_settings2: {label: 主题, send: SETTINGS, option: "theme"}
