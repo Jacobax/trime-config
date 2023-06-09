@@ -1,3 +1,5 @@
+**这份配置我只用到同文3.2.6版本，后续版本可能不兼容，也不推荐用，bug太多不隐定，建议转无障碍版**
+---
 四叶草拼音+小鹤双拼+小鹤音形  
 原主题来源：[rime-pure](https://github.com/SivanLaai/rime-pure)
 ![Gboard](https://raw.githubusercontent.com/Jacobax/trime-config/main/pics/Gboard墨亮.jpg)
